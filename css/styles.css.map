@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "AAAA,+EAA+E",
+    "sources": [
+        "../src/styles.scss",
+        "../src/assets/style/_main.scss",
+        "../src/assets/style/_table.scss",
+        "../src/assets/style/_variables.scss",
+        "../src/assets/style/_variables.scss"
+    ],
+    "names": [],
+    "file": "styles.css"
+}

@@ -1,0 +1,15 @@
+<app-header>
+    <p class="header">
+        Szczegóły kontaktu
+    </p>
+</app-header>
+
+<div class="container">
+    <div>
+        <p>id: {{contactDetails.id}}</p>
+        <p>Imie: {{contactDetails.name}}</p>
+        <p>Nazwisko: {{contactDetails.surname}}</p>
+        <p>numer: {{contactDetails.phone}}</p>
+    </div>
+    <button class="btn btn-primary" [routerLink]="['/contacts']">Wstecz</button>
+</div>

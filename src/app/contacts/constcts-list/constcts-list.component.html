@@ -1,0 +1,27 @@
+<app-header>
+    <h1 class="head" content>Lista wszystkich kontaktow </h1>
+</app-header>
+<div class="container">
+    <table *ngIf="contacts.length > 0; else  noContactAlert" class="table table-sm table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th>LP.</th>
+                <th>Imie</th>
+                <th>Nazwisko</th>
+                <th>Phone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let contact of contacts; let i = index" [routerLink]="['/contact', contact.id]">
+                <td>{{i + 1}}</td>
+                <td>{{contact.name}}</td>
+                <td>{{contact.surname}}</td>
+                <td>{{contact.phone}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <button class="btn btn-primary" [routerLink]="['/contact-add']">Dodaj</button>
+</div>
+<ng-template #noContactAlert>
+    <p class="hide"> W tabeli nie ma kontaktow !</p>
+</ng-template>

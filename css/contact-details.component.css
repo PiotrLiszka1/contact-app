@@ -1,0 +1,10 @@
+.header {
+  position: absolute;
+  left: 50%;
+  top: 10px;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  color: #fff;
+  font-size: 25px;
+}
+/*# sourceMappingURL=contact-details.component.css.map */

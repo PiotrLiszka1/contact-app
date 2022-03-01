@@ -1,0 +1,43 @@
+.header {
+  position: absolute;
+  left: 50%;
+  top: 10px;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  color: #fff;
+  font-size: 25px;
+}
+
+.form-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+}
+
+.form-body form {
+  position: absolute;
+  width: 800px;
+  padding: 10px 20px;
+}
+
+.form-body form label {
+  font-size: 26px;
+}
+
+.form-body form input {
+  margin-bottom: 20px;
+}
+
+.error {
+  background-color: red;
+  color: white;
+  padding: 2px 4px;
+  font-size: 13px;
+  margin-top: 5px;
+  border-radius: 3px;
+}
+/*# sourceMappingURL=contact-add.component.css.map */

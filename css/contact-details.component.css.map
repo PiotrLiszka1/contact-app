@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAC;EACN,QAAQ,EAAE,QAAQ;EAClB,IAAI,EAAE,GAAG;EACT,GAAG,EAAE,IAAI;EACT,SAAS,EAAE,eAAe;EAC1B,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,IAAI;CAChB",
+    "sources": [
+        "../src/app/contacts/contact-details/contact-details.component.scss"
+    ],
+    "names": [],
+    "file": "contact-details.component.css"
+}

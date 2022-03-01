@@ -1,0 +1,13 @@
+div {
+  background-color: #5e69ff;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+div p {
+  color: #fff;
+  line-height: 60px;
+  font-size: 20px;
+  margin-left: 20px;
+}
+/*# sourceMappingURL=header.component.css.map */

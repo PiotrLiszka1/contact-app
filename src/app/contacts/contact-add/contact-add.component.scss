@@ -1,0 +1,36 @@
+.header {
+  position: absolute;
+  left: 50%;
+  top: 10px;
+  transform: translate(-50%);
+  color: #fff;
+  font-size: 25px;
+}
+
+.form-body {
+  display: flex;
+  justify-content: center;
+  //   background-color: yellow;
+  height: 100vh;
+  form {
+    position: absolute;
+    width: 800px;
+    padding: 10px 20px;
+    // background-color: red;
+    label {
+      font-size: 26px;
+    }
+    input {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.error {
+  background-color: red;
+  color: white;
+  padding: 2px 4px;
+  font-size: 13px;
+  margin-top: 5px;
+  border-radius: 3px;
+}
