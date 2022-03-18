@@ -1,5 +1,7 @@
 Live https://piotrliszka1.github.io/contact-app/contacts 
 
+PROSTA APLIKACJA NAPISANA W ANGULAR ŁACZĄCA SIE Z BAZĄ DANYCH. MOZNA W NIEJ DODAC UZYTKOWNIKA KTORY RÓWNIEZ BEDZIE DODANY DO BAZY. APLIKACJA POSIADA TEŻ MOŻLIWOŚĆ WEJSCIA W DANY KONTAKT I SPRAWDZENIE SZCZEGÓŁÓW.
+
 # ContactApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.4.
