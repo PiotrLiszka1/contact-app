@@ -10,18 +10,14 @@
 .form-body {
   display: flex;
   justify-content: center;
-  //   background-color: yellow;
   height: 100vh;
   form {
     position: absolute;
     width: 800px;
     padding: 10px 20px;
-    // background-color: red;
-    label {
-      font-size: 26px;
-    }
+
     input {
-      margin-bottom: 20px;
+      margin-bottom: 40px;
     }
   }
 }
@@ -33,4 +29,65 @@
   font-size: 13px;
   margin-top: 5px;
   border-radius: 3px;
+}
+
+@media (min-width: 360px) {
+  .header {
+    width: 60%;
+    text-align: center;
+    top: 15px;
+    font-size: 18px;
+  }
+
+  .form-body {
+    form {
+      width: 350px;
+      label {
+        font-size: 18px;
+      }
+    }
+  }
+}
+@media (min-width: 576px) {
+  .header {
+    top: 13px;
+    font-size: 22px;
+  }
+  .form-body {
+    form {
+      width: 550px;
+      label {
+        font-size: 20px;
+      }
+    }
+  }
+}
+@media (min-width: 768px) {
+  .header {
+    top: 10px;
+    font-size: 26px;
+  }
+  .form-body {
+    form {
+      width: 700px;
+      label {
+        font-size: 24px;
+      }
+    }
+  }
+}
+@media (min-width: 992px) {
+  .header {
+    top: 6px;
+    font-size: 30px;
+  }
+  .form-body {
+    form {
+      width: 850px;
+
+      label {
+        font-size: 26px;
+      }
+    }
+  }
 }
