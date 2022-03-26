@@ -14,10 +14,38 @@ td {
   cursor: pointer;
 }
 
-h1 {
+.head {
   position: absolute;
+
   left: 50%;
   transform: translate(-50%);
   color: #fff;
   top: 5px;
+}
+
+@media (min-width: 360px) {
+  .head {
+    width: 60%;
+    text-align: center;
+    top: 15px;
+    font-size: 18px;
+  }
+}
+@media (min-width: 576px) {
+  .head {
+    top: 13px;
+    font-size: 22px;
+  }
+}
+@media (min-width: 768px) {
+  .head {
+    top: 10px;
+    font-size: 26px;
+  }
+}
+@media (min-width: 992px) {
+  .head {
+    top: 6px;
+    font-size: 30px;
+  }
 }
