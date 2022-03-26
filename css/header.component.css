@@ -5,9 +5,13 @@ div {
 }
 
 div p {
-  color: #fff;
   line-height: 60px;
-  font-size: 20px;
+  font-size: 16px;
   margin-left: 20px;
+}
+
+div p a {
+  color: #fff;
+  text-decoration: none;
 }
 /*# sourceMappingURL=header.component.css.map */
